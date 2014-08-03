@@ -1,0 +1,26 @@
+body {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #7fffd4;
+}
+body .caja {
+  background: #000;
+  -webkit-box-shadow: 2px 4px 5px #0ff;
+  box-shadow: 2px 4px 5px #0ff;
+  background: -webkit-linear-gradient(top, #ff0, #00f);
+  background: -moz-linear-gradient(top, #ff0, #00f);
+  background: -o-linear-gradient(top, #ff0, #00f);
+  background: -ms-linear-gradient(top, #ff0, #00f);
+  background: linear-gradient(to bottom, #ff0, #00f);
+}
+@media (max-width: 500px) {
+  .cuerpo {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+  }
+}

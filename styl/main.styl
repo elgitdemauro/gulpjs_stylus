@@ -1,0 +1,24 @@
+@import 'nib'
+
+aqua = #7fffd4
+border-radius(n)
+	-webkit-border-radius n
+	-moz-border-radius n
+	border-radius n
+
+// end var
+
+body
+	border-radius(5px)
+	background aqua
+	.caja
+		background #000
+		box-shadow 2px 4px 5px cyan
+		background: linear-gradient(top, yellow, blue)
+
+@media (max-width: 500px)
+	.cuerpo
+		opacity .4
+		background-size cover
+
+
