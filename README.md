@@ -5,12 +5,12 @@ First install dependencies node
 npm install
 ```
 
-gulpfile include 
+gulpfile.js include 
 ```
 var	gulp 		= require('gulp'),
-	browserSync	= require('browser-sync'),
 	stylus 		= require('gulp-stylus'),
 	nib 		= require('nib'),
+	browserSync	= require('browser-sync'),
 	reload 		= browserSync.reload;
 ```
 
