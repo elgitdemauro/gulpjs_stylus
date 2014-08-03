@@ -1,12 +1,21 @@
 ## Gulpjs Stylus
 
-first
+First install dependencies node
 ```
 npm install
 ```
 
-task default
+gulpfile include 
+```
+var 	gulp 		= require('gulp'),
+	browserSync 	= require('browser-sync'),
+	stylus 		= require('gulp-stylus'),
+	nib 		= require('nib'),
+	reload 		= browserSync.reload;
+
+```
+
+run task default
 ```
 gulp
 ```
-
