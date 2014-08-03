@@ -12,7 +12,6 @@ var 	gulp 		= require('gulp'),
 	stylus 		= require('gulp-stylus'),
 	nib 		= require('nib'),
 	reload 		= browserSync.reload;
-
 ```
 
 run task default
