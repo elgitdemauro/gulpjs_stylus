@@ -7,7 +7,7 @@ npm install
 
 gulpfile include 
 ```
-var 	gulp 		= require('gulp'),
+var	gulp 		= require('gulp'),
 	browserSync 	= require('browser-sync'),
 	stylus 		= require('gulp-stylus'),
 	nib 		= require('nib'),
